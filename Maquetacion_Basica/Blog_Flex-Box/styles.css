@@ -1,0 +1,82 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+.barra{
+    display: flex ;
+    position: static;
+    background-color: black;
+    color: white;
+    justify-content: space-around;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    font-size: xx-large;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+
+}
+.titulo{
+    font-size: xx-large;
+    display: flex;
+    align-self: flex-start;
+}
+.div_home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+
+}
+.imagen_div{
+    display: flex;
+    align-items: center;
+}
+.imagen1{
+    height: 750px;
+}
+
+.padre{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 5%;
+}
+p{
+    color: rgb(89, 89, 89);
+}
+
+.imagenes{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img2{
+    width: 33.333%;
+}
+.div_padre1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.lorem{
+    text-align: center;
+    margin-left: 5%;
+}
+.lorem1{
+    margin-right: 5%;
+}
+
