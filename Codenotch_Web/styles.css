@@ -1,0 +1,173 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-1/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins_No_Bold;
+    src: url(Poppins-1/Poppins-Light.ttf);
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+.logo_sinfondo{
+    width: 250px;
+    height: 30px;
+    margin-left: 25%;
+    align-self: center;
+
+}
+
+.wrap{
+    display: flex;
+    width: 100%;
+    height: 84px;
+    position: fixed;
+    z-index: 100;
+    max-width: 100%;
+    align-items: center;
+    
+    background-color: rgba(0, 0, 0, 0.737)!important;
+    
+}
+.principio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.navegacion{
+    display: flex;
+    justify-content: space-between;
+
+}
+.imagen_codenotch{
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-end;
+}
+
+.a_menu{
+    color: rgb(184, 184, 184);
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Poppins, Arial,  sans-serif;
+    margin-right: 10%;
+}
+.codenotch{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    
+}
+
+.a_menu:hover{
+    color: white;
+}
+
+.fix-menu{
+    background-color: black;
+}
+@media only screen and (max-width:1024px) {
+    .inicio{
+        margin-top:0px!important;
+        margin-bottom:20px!important;
+}}
+.central{
+    height: 700px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-style:solid;
+    background-size:cover;
+    background-attachment: scroll!important;
+    background-image: url("./imagenes/Web-portada-3.png");
+    display: flex;
+    flex-direction: column;
+
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    align-self: center ;
+    margin-top: 9%;
+    width: 756.4px;
+
+}
+
+
+.inicio{
+    font-size: 25px;
+    font-family: Poppins,"Arial Black", sans-serif, normal;
+    color: white;
+    font-weight: 300;
+    
+
+}
+.inicio2{
+    font-size: 40px;
+    font-family: Poppins,"Arial Black", sans-serif, normal;
+    color: white;
+    font-weight: 300;
+}
+.inicio3{
+    font-size: 15px;
+    font-family: Poppins,"Arial Black", sans-serif, normal;
+    color: white;
+    font-weight: 300;
+}
+.convert{
+    color: #11f294;
+}
+
+.trabajan{
+    margin-top: -7%;
+    height: fit-content;
+    font-size: 20px;
+    font-family: Poppins,"Arial Black", sans-serif, normal;
+    color: white;
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.formacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+.forma{
+    font-family: Poppins,"Arial Black", sans-serif, normal;
+    color: white;
+    
+}
+
+.objetivo{
+    margin-top: 5%;
+    margin-bottom: 30%;
+    display: flex;
+    align-self: center;
+    text-align: left;
+}
+.forma_flex{
+    display: flex;
+    flex-direction: column;
+    align-self: center ;
+    align-items: flex-start;
+    width: 1056.4px;
+}
