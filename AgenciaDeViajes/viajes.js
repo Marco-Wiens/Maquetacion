@@ -19,7 +19,11 @@ function mostrar(){
 
     for(let obj of arrObj){
         if(obj.destino.toUpperCase() == "MALLORCA" || obj.destino.toUpperCase() == "CANARIAS" || obj.destino.toUpperCase() == "GALICIA"){
-            console.log(obj);
+            let foo = "";
+            for(let property in obj){
+                foo += "<li>" + property + ": "+ obj[property] + "</li> ";
+            }
+            document.getElementById("foo").innerHTML += foo + "<hr>";
         }
     }
 }
