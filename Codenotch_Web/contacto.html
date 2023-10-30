@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Codenotch | Contacto</title>
+</head>
+<body>
+    <div class="principio" >
+        <header class="wrap" id="wrap">
+            <div style="display: flex; justify-content: center; align-items: center; width: 50%;">
+                <a href="home.html" class="imagen_codenotch">
+                    <img src="./imagenes/logo_sinfondo.png" alt="" class="logo_sinfondo">
+                </a>
+            </div>
+            <div class="codenotch">   
+            
+                <a class="a_menu" href="home.html"><b>Inicio</b></a>
+                <div class="dropdown" >
+                    <a class="a_menu_cursos" style="cursor: pointer;"><b>Cursos</b></a>
+                    <div class="dropdown-content" style="border-radius: 5px ; border: solid;">
+                        <a class="curso" href="curso_full_web.html" style="border-bottom: 0.1px white solid;">Full Time Web Developer</a>
+                        <a class="curso" href="curso_part_web.html" style="border-bottom: 0.1px white solid;">Part Time Web Developer</a>
+                        <a class="curso" href="curso_full_data.html">Full Time Data Science</a>
+                    </div>
+                </div>
+                <a class="a_menu" href="equipo.html"><b>Equipo Codenotch</b></a>
+                <a class="a_menu" href="contacto.html" ><b>Contacto</b></a>
+            
+            </div>
+        
+        </header>
+
+        <div class="form" >
+            <div style=" height: fit-content; margin-top: 15%;  width:100%; color: white; font-family:  Poppins,'Arial Black', sans-serif, normal; align-items: center;">
+                <h1 style=" text-align: center; color: white; font-family:  Poppins,'Arial Black', sans-serif, normal;"> ¡Escribenos para aprender con nosotros!</h1>
+                <div style="display: flex; flex-direction: column; justify-content: space-between;  align-items: center; width: 100%;">
+                    <form>
+                        <div style="margin-top: 2%; " >
+                        <input id="name" type="text" placeholder="Nombre"  style="color: white; background: none; border: none; border-bottom: 2px solid white; font-size: 25px; font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal;">
+                        </div>
+                        <div style="margin-top: 2%;">
+                        
+                            <input id="ape" type="text" placeholder="Apellidos" style="color: white; background: none; border: none; border-bottom: 2px solid white; font-size: 25px; font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal;">
+                        </div>
+
+
+                        <div style="margin-top: 2%;">
+                            <input id="tlf" type="number" maxlength="9" placeholder="Teléfono" style="color: white; background: none; border: none; border-bottom: 2px solid white; font-size: 25px; font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal;">
+                        </div>
+                        <div style="margin-top: 2%;">
+                            <input id="email" type="text" placeholder="Correo Electrónico"  style="color: white; background: none; border: none; border-bottom: 2px solid white; font-size: 25px; font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal;">
+                        </div>
+                        <div style="margin-top: 2%;">
+                            <input id="fecha" type="date"  style="color: white; background: none; border: none; border-bottom: 2px solid white; font-size: 25px; font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal;"> 
+                        </div>
+                    
+                        <button onclick="borrartodo()" class="btn" style="font-size: 25px; font-family: Poppins,'Arial Black', sans-serif, normal; margin-top: 5%; border-radius: 5px; border: none; cursor: pointer; background-color: black; color: white; height: 80px; width: 300px;">
+                            Enviar formulario
+                        </button>
+                    </form>
+                </div>
+                
+            </div>
+
+
+        </div>
+
+        <footer style="background-color: blue; height: 300px; border-top: rgb(255, 255, 255) 2px solid; width: 100%;">
+            <div style="display: flex; margin-top: 3%; margin-left: 10%;  justify-content: space-around;" >
+                <div style="width: 50%;">
+                    <a href="home.html">
+                        <img src="./imagenes/logo_sinfondo.png" alt="" style="margin-top: 3%; margin-left: 10%; height: 35px; width: auto;">
+                    </a>
+                    <p style="font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal; color: white; margin-top: 5%; margin-left: 10%;">Bootcamps de Desarrollo Web y Móvil</p>
+                    <p style="font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal; color: white; margin-top: -1%; margin-left: 10%;">y Data Science</p>
+                </div>
+                <div style="width: 30%; margin-top: 5%;">
+                    <p style="font-family: Poppins_No_Bold,'Arial Black', sans-serif, normal; color: white; margin-left: 16%;">¡Descubre nuestras redes sociales!</p>
+                    <div style="display: flex; justify-content: space-around;">
+                        <a href="https://www.facebook.com/codenotchMAD/?locale=es_ES" style="text-decoration: none;">    
+                            <img src="./iconos/facebook_circle_logo_icon_206764.png" alt="" style="height: 50px; width: 50px;">
+                        </a>
+                        <a href="https://twitter.com/CodenotchMAD" style="text-decoration: none;">
+                            <img src="./iconos/Twitter_Rounded_Solid_icon-icons.com_61561.png" alt=""  style="height: 50px; width: 50px;">
+                        </a>
+                        <a href="https://www.linkedin.com/school/codenotch/people/?originalSubdomain=es" style="text-decoration: none;">
+                            <img src="./iconos/LinkedIn_Rounded_Solid_icon-icons.com_61559.png" alt="" style="height: 50px; width: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com/codenotchmad/?hl=es" style="text-decoration: none;">
+                            <img src="./iconos/instagram_logo_icon_216343.png" alt="" style="height: 50px; width: 50px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+</div>
+
+<script>
+
+    function borrartodo(){
+        document.getElementById("fecha").reset();
+        document.getElementById("ape").replaceWith("");
+        document.getElementById("tlf").replaceWith("");
+        document.getElementById("email").replaceWith("");
+        document.getElementById("name").replaceWith("");
+        window.alert('¡Solicitud mandada!');
+        }
+</script>
+    
+</body>
+</html>
