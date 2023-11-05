@@ -1,0 +1,298 @@
+body{
+    margin: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 400px 400px;
+    font-weight: 600;
+}
+
+.grid_a {
+    background-color: greenyellow;
+    text-align: center;
+    color: white;
+}
+.grid_b {
+    background-color: orange;
+    text-align: center;
+    color: white;
+}
+.grid_c {
+    background-color: tomato;
+    text-align: center;
+    color: white;
+}
+
+.grid_d {
+    background-color: red;
+    text-align: center;
+    color: white;
+}
+.grid_e {
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.grid_f {
+    background-color: yellow;
+    text-align: center;
+    color: white;
+}
+
+.gridd {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 600px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+
+.gridd_1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: 2fr 1fr;
+}
+
+
+.gridd_a {
+    background-color: greenyellow;
+}
+.gridd_b {
+    background-color: black;
+    color: white;
+}
+.gridd_c {
+    background-color: greenyellow;
+}
+.gridd_d {
+    background-color: black;
+    color: white;
+}
+.gridd_e {
+    background-color: greenyellow;
+}
+.gridd_f {
+    background-color: black;
+    color: white;
+}
+
+.griddd{
+    display: grid;
+    grid-template-columns: [x0] 2fr [x1] 1fr [x2] 1fr [x3];
+    grid-template-rows: [y0] 0.5fr [y1] 3fr [y2] 0.4fr [y3];
+
+}
+
+.griddd_1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: grid;
+    grid-column: x0/x3;
+    grid-row: y0/y1;
+
+}
+
+.griddd_2{
+    background-color: aqua;
+    grid-column: x0/x3;
+    grid-row: y1/y2;
+
+    display: grid;
+    grid-template-columns: [x0] 3fr [x1] 1fr [x2];
+    grid-template-rows: [y0] 3fr [y1] ;
+}
+
+.griddd_a{
+    background-color: blue;
+    
+    color: white;
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+
+    display: grid;
+    grid-template-columns: [x0] 2.5fr [x1] 1.25fr [x2];
+    grid-template-rows: [y0] 1fr [y1] 2fr [y2];
+    
+}
+
+.griddd_a_a{
+    margin: 10px;
+    border: 2px solid white;
+    grid-column: x0/x2;
+    grid-row: y0/y1;
+    padding: 10px;
+}
+
+.griddd_a_b{
+    border: solid 2px white;
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+
+    margin: 10px;
+    padding: 10px;
+}
+.griddd_a_c{
+    border: solid 2px white;
+    grid-column: x1/x2;
+    grid-row: y1/y2;
+
+    margin: 10px;
+    padding: 10px;
+}
+
+.griddd_b{
+    background-color: lightseagreen;
+    text-align: center;
+    grid-column: x1/x2;
+    grid-row: y0/y1;
+
+    display: grid;
+    grid-template-columns: [x0] 1.25fr [x1];
+    grid-template-rows: [y0] 0.75fr [y1] 0.75fr [y2] 0.75fr [y3] 0.75fr [y4];
+    
+}
+.griddd_b_a{
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+
+    border: solid black 5px;
+    color: white;
+    font-weight: 900;
+    padding: 30px;
+    margin: 10px 10px 2.5px 10px;
+}
+
+.griddd_b_b{
+    grid-column: x0/x1;
+    grid-row: y1/y2;
+    padding: 30px;
+    margin: 1.25px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+.griddd_b_c{
+    grid-column: x0/x1;
+    grid-row: y2/y3;
+    
+    padding: 30px;
+    margin: 1.25px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+.griddd_b_d{
+    grid-column: x0/x1;
+    grid-row: y3/y4;
+    padding: 30px;
+    margin: 1.25px 10px 10px 10px;
+    background-color: black;
+    color: white;
+}
+
+.griddd_3{
+    grid-row: y2/y3;
+    grid-column: x0/x3;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    display: grid;
+
+    grid-template-columns: [x0] 2fr [x1] 2fr [x2];
+    grid-template-rows: [y0] 0.4fr [y1];
+    
+}
+.griddd_c{
+    grid-column: x0/x1;
+    grid-row: y0/y1;
+    border: 3px solid black;
+    margin: 5px;
+}
+.griddd_d{
+    grid-column: x1/x2;
+    grid-row: y0/y1;
+    border: 3px solid black;
+    margin: 5px;
+}
+
+.gridddd{
+    display: grid;
+    grid-template-areas: "header header imagen"
+                        "aside contenido contenido"
+                        "footer footer footer";
+    text-align: center;
+    color: white;
+}
+
+.gridddd_1_a{
+    grid-area: header;
+    background-color: brown;
+    height: 70px;
+    padding: 10px;
+}
+
+.gridddd_1_b{
+    grid-area: imagen;
+    background-color: rgb(65, 19, 19);
+    height: 70px;
+    padding: 10px;
+}
+
+.gridddd_2_a{
+    grid-area: aside;
+    background-color: rgb(255, 109, 24);
+    height: 500px;
+    padding: 10px;
+
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gridddd_2_a_a{
+    background-color: white;
+    color:     rgb(255, 108, 23);
+    height: 130px;
+    padding: 10px;
+
+}
+.gridddd_2_a_b{
+    
+    background-color: white;
+    color:     rgb(194, 91, 7);
+    height: 130px;
+    padding: 10px;
+}
+
+.gridddd_2_b{
+    grid-area: contenido;
+    background-color: rgb(199, 45, 18);
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gridddd_2_b_a{
+    height: 220px;
+    padding: 10px;
+    border: 2px solid white ;
+    margin-bottom: 10px;
+}
+.gridddd_2_b_b{
+    height: 220px;
+    padding: 10px;
+    border: 2px solid white ;
+}
+
+.gridddd_3{
+    grid-area: footer;
+    background-color: rgb(65, 19, 19);
+    height: 70px;
+    padding: 10px;
+}
+
