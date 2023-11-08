@@ -1,0 +1,91 @@
+@font-face {
+    font-family: Poppins;
+    src: url(Poppins-1/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins_No_Bold;
+    src: url(Poppins-1/Poppins-Light.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins_No_Bold, 'Trebuchet MS', sans-serif;
+}
+ 
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    z-index: 100;
+}
+
+.menu_items{
+    width: 50%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+    color: white;
+
+}
+.menu_item{
+    text-decoration: none;
+    color: rgb(219, 219, 219);
+
+}
+.menu_item:hover{
+    color: white;
+
+}
+
+.divBody{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divBody_pelis{
+    
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 8%;
+}
+
+.divBody_actores{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: fit-content;
+    margin-bottom: 10%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.form{
+    margin-top: 2%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
